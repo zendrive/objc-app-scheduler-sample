@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6829AD605CBD08851306CB6B /* libPods-App SchedulerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 188D06220049EFFE146D8372 /* libPods-App SchedulerTests.a */; };
+		DE1828EE204F3DE9005F7F71 /* ZendriveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1828ED204F3DE9005F7F71 /* ZendriveManager.m */; };
+		DE1828F1204F5E9D005F7F71 /* SignificantLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1828F0204F5E9D005F7F71 /* SignificantLocationManager.m */; };
+		DE1828F4204F60E2005F7F71 /* AutomaticSchedulingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1828F3204F60E2005F7F71 /* AutomaticSchedulingManager.m */; };
+		DE501369204F38F500716DB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE501368204F38F500716DB1 /* AppDelegate.m */; };
+		DE50136C204F38F500716DB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE50136B204F38F500716DB1 /* ViewController.m */; };
+		DE50136F204F38F500716DB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE50136D204F38F500716DB1 /* Main.storyboard */; };
+		DE501371204F38F500716DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE501370204F38F500716DB1 /* Assets.xcassets */; };
+		DE501374204F38F500716DB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE501372204F38F500716DB1 /* LaunchScreen.storyboard */; };
+		DE501377204F38F500716DB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE501376204F38F500716DB1 /* main.m */; };
+		DE501381204F38F500716DB1 /* AutomaticSchedulingManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE501380204F38F500716DB1 /* AutomaticSchedulingManagerTests.m */; };
+		EC5A6A742058CD5F0082D5A2 /* AppPeriodicTask.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5A6A722058CD5F0082D5A2 /* AppPeriodicTask.m */; };
+		F4788FD27A08245CCCDD7A8A /* libPods-App Scheduler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DEAE9F24BA9F140EFFA48FA /* libPods-App Scheduler.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE50137D204F38F500716DB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE50135C204F38F500716DB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE501363204F38F500716DB1;
+			remoteInfo = "App Scheduler";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		188D06220049EFFE146D8372 /* libPods-App SchedulerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-App SchedulerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A57045FDE8B15D7FFEF4B17 /* Pods-App Scheduler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App Scheduler.release.xcconfig"; path = "Pods/Target Support Files/Pods-App Scheduler/Pods-App Scheduler.release.xcconfig"; sourceTree = "<group>"; };
+		6DEAE9F24BA9F140EFFA48FA /* libPods-App Scheduler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-App Scheduler.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E079D69CC3D78CE4733124 /* Pods-App Scheduler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App Scheduler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-App Scheduler/Pods-App Scheduler.debug.xcconfig"; sourceTree = "<group>"; };
+		8E79786F95C9AFDBD36462CE /* Pods-App SchedulerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App SchedulerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-App SchedulerUITests/Pods-App SchedulerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A6E8D35CFE61712A2A010EB5 /* Pods-App SchedulerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App SchedulerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-App SchedulerTests/Pods-App SchedulerTests.release.xcconfig"; sourceTree = "<group>"; };
+		C75DE636DADAAEC24C59F166 /* Pods-App SchedulerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App SchedulerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-App SchedulerTests/Pods-App SchedulerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CFDE8B916AD715912DBC05A0 /* libPods-App SchedulerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-App SchedulerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1828EC204F3DE9005F7F71 /* ZendriveManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZendriveManager.h; sourceTree = "<group>"; };
+		DE1828ED204F3DE9005F7F71 /* ZendriveManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZendriveManager.m; sourceTree = "<group>"; };
+		DE1828EF204F5E9D005F7F71 /* SignificantLocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignificantLocationManager.h; sourceTree = "<group>"; };
+		DE1828F0204F5E9D005F7F71 /* SignificantLocationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignificantLocationManager.m; sourceTree = "<group>"; };
+		DE1828F2204F60E2005F7F71 /* AutomaticSchedulingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutomaticSchedulingManager.h; sourceTree = "<group>"; };
+		DE1828F3204F60E2005F7F71 /* AutomaticSchedulingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutomaticSchedulingManager.m; sourceTree = "<group>"; };
+		DE501364204F38F500716DB1 /* App Scheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Scheduler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE501367204F38F500716DB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE501368204F38F500716DB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE50136A204F38F500716DB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE50136B204F38F500716DB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE50136E204F38F500716DB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE501370204F38F500716DB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE501373204F38F500716DB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE501375204F38F500716DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE501376204F38F500716DB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE50137C204F38F500716DB1 /* App SchedulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App SchedulerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE501380204F38F500716DB1 /* AutomaticSchedulingManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutomaticSchedulingManagerTests.m; sourceTree = "<group>"; };
+		DE501382204F38F500716DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5A6A722058CD5F0082D5A2 /* AppPeriodicTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppPeriodicTask.m; sourceTree = "<group>"; };
+		EC5A6A732058CD5F0082D5A2 /* AppPeriodicTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppPeriodicTask.h; sourceTree = "<group>"; };
+		F4765F9DB2FB815F897E4D16 /* Pods-App SchedulerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App SchedulerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-App SchedulerUITests/Pods-App SchedulerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE501361204F38F500716DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4788FD27A08245CCCDD7A8A /* libPods-App Scheduler.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE501379204F38F500716DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6829AD605CBD08851306CB6B /* libPods-App SchedulerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		703FD007870E362C9E7FDA7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DEAE9F24BA9F140EFFA48FA /* libPods-App Scheduler.a */,
+				188D06220049EFFE146D8372 /* libPods-App SchedulerTests.a */,
+				CFDE8B916AD715912DBC05A0 /* libPods-App SchedulerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AD218901D4CCFB42D9303E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82E079D69CC3D78CE4733124 /* Pods-App Scheduler.debug.xcconfig */,
+				2A57045FDE8B15D7FFEF4B17 /* Pods-App Scheduler.release.xcconfig */,
+				C75DE636DADAAEC24C59F166 /* Pods-App SchedulerTests.debug.xcconfig */,
+				A6E8D35CFE61712A2A010EB5 /* Pods-App SchedulerTests.release.xcconfig */,
+				F4765F9DB2FB815F897E4D16 /* Pods-App SchedulerUITests.debug.xcconfig */,
+				8E79786F95C9AFDBD36462CE /* Pods-App SchedulerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE50135B204F38F500716DB1 = {
+			isa = PBXGroup;
+			children = (
+				DE501366204F38F500716DB1 /* App Scheduler */,
+				DE50137F204F38F500716DB1 /* App SchedulerTests */,
+				DE501365204F38F500716DB1 /* Products */,
+				8AD218901D4CCFB42D9303E8 /* Pods */,
+				703FD007870E362C9E7FDA7A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DE501365204F38F500716DB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE501364204F38F500716DB1 /* App Scheduler.app */,
+				DE50137C204F38F500716DB1 /* App SchedulerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE501366204F38F500716DB1 /* App Scheduler */ = {
+			isa = PBXGroup;
+			children = (
+				DE501367204F38F500716DB1 /* AppDelegate.h */,
+				DE501368204F38F500716DB1 /* AppDelegate.m */,
+				DE50136A204F38F500716DB1 /* ViewController.h */,
+				DE50136B204F38F500716DB1 /* ViewController.m */,
+				DE1828EC204F3DE9005F7F71 /* ZendriveManager.h */,
+				DE1828ED204F3DE9005F7F71 /* ZendriveManager.m */,
+				DE1828F2204F60E2005F7F71 /* AutomaticSchedulingManager.h */,
+				DE1828F3204F60E2005F7F71 /* AutomaticSchedulingManager.m */,
+				EC5A6A732058CD5F0082D5A2 /* AppPeriodicTask.h */,
+				EC5A6A722058CD5F0082D5A2 /* AppPeriodicTask.m */,
+				DE1828EF204F5E9D005F7F71 /* SignificantLocationManager.h */,
+				DE1828F0204F5E9D005F7F71 /* SignificantLocationManager.m */,
+				DE50136D204F38F500716DB1 /* Main.storyboard */,
+				DE501370204F38F500716DB1 /* Assets.xcassets */,
+				DE501372204F38F500716DB1 /* LaunchScreen.storyboard */,
+				DE501375204F38F500716DB1 /* Info.plist */,
+				DE501376204F38F500716DB1 /* main.m */,
+			);
+			path = "App Scheduler";
+			sourceTree = "<group>";
+		};
+		DE50137F204F38F500716DB1 /* App SchedulerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE501380204F38F500716DB1 /* AutomaticSchedulingManagerTests.m */,
+				DE501382204F38F500716DB1 /* Info.plist */,
+			);
+			path = "App SchedulerTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE501363204F38F500716DB1 /* App Scheduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE501390204F38F500716DB1 /* Build configuration list for PBXNativeTarget "App Scheduler" */;
+			buildPhases = (
+				E444BAE9AEF3B723E24A786B /* [CP] Check Pods Manifest.lock */,
+				DE501360204F38F500716DB1 /* Sources */,
+				DE501361204F38F500716DB1 /* Frameworks */,
+				DE501362204F38F500716DB1 /* Resources */,
+				0BF459A94FE087618D559F53 /* [CP] Embed Pods Frameworks */,
+				91EBB12A2BB1AD46EB1EDB1F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "App Scheduler";
+			productName = "App Scheduler";
+			productReference = DE501364204F38F500716DB1 /* App Scheduler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE50137B204F38F500716DB1 /* App SchedulerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE501393204F38F500716DB1 /* Build configuration list for PBXNativeTarget "App SchedulerTests" */;
+			buildPhases = (
+				60DE2DBE821246862CAA07EF /* [CP] Check Pods Manifest.lock */,
+				DE501378204F38F500716DB1 /* Sources */,
+				DE501379204F38F500716DB1 /* Frameworks */,
+				DE50137A204F38F500716DB1 /* Resources */,
+				D9D9FE28C4C696C505FF3A80 /* [CP] Embed Pods Frameworks */,
+				8525E3C40A8671CC3824E43A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE50137E204F38F500716DB1 /* PBXTargetDependency */,
+			);
+			name = "App SchedulerTests";
+			productName = "App SchedulerTests";
+			productReference = DE50137C204F38F500716DB1 /* App SchedulerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE50135C204F38F500716DB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Zendrive;
+				TargetAttributes = {
+					DE501363204F38F500716DB1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					DE50137B204F38F500716DB1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE501363204F38F500716DB1;
+					};
+				};
+			};
+			buildConfigurationList = DE50135F204F38F500716DB1 /* Build configuration list for PBXProject "App Scheduler" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE50135B204F38F500716DB1;
+			productRefGroup = DE501365204F38F500716DB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE501363204F38F500716DB1 /* App Scheduler */,
+				DE50137B204F38F500716DB1 /* App SchedulerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE501362204F38F500716DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE501374204F38F500716DB1 /* LaunchScreen.storyboard in Resources */,
+				DE501371204F38F500716DB1 /* Assets.xcassets in Resources */,
+				DE50136F204F38F500716DB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE50137A204F38F500716DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BF459A94FE087618D559F53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-App Scheduler/Pods-App Scheduler-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60DE2DBE821246862CAA07EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-App SchedulerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8525E3C40A8671CC3824E43A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-App SchedulerTests/Pods-App SchedulerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91EBB12A2BB1AD46EB1EDB1F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-App Scheduler/Pods-App Scheduler-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9D9FE28C4C696C505FF3A80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-App SchedulerTests/Pods-App SchedulerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E444BAE9AEF3B723E24A786B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-App Scheduler-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE501360204F38F500716DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE50136C204F38F500716DB1 /* ViewController.m in Sources */,
+				EC5A6A742058CD5F0082D5A2 /* AppPeriodicTask.m in Sources */,
+				DE1828F4204F60E2005F7F71 /* AutomaticSchedulingManager.m in Sources */,
+				DE501377204F38F500716DB1 /* main.m in Sources */,
+				DE1828EE204F3DE9005F7F71 /* ZendriveManager.m in Sources */,
+				DE501369204F38F500716DB1 /* AppDelegate.m in Sources */,
+				DE1828F1204F5E9D005F7F71 /* SignificantLocationManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE501378204F38F500716DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE501381204F38F500716DB1 /* AutomaticSchedulingManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE50137E204F38F500716DB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE501363204F38F500716DB1 /* App Scheduler */;
+			targetProxy = DE50137D204F38F500716DB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE50136D204F38F500716DB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE50136E204F38F500716DB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE501372204F38F500716DB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE501373204F38F500716DB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE50138E204F38F500716DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82E079D69CC3D78CE4733124 /* Pods-App Scheduler.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE50138F204F38F500716DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE501391204F38F500716DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82E079D69CC3D78CE4733124 /* Pods-App Scheduler.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGC42GYEBQ;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "App Scheduler/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zendrive.AppScheduler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE501392204F38F500716DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A57045FDE8B15D7FFEF4B17 /* Pods-App Scheduler.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGC42GYEBQ;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "App Scheduler/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zendrive.AppScheduler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE501394204F38F500716DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C75DE636DADAAEC24C59F166 /* Pods-App SchedulerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGC42GYEBQ;
+				INFOPLIST_FILE = "App SchedulerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zendrive.App-SchedulerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App Scheduler.app/App Scheduler";
+			};
+			name = Debug;
+		};
+		DE501395204F38F500716DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6E8D35CFE61712A2A010EB5 /* Pods-App SchedulerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGC42GYEBQ;
+				INFOPLIST_FILE = "App SchedulerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zendrive.App-SchedulerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App Scheduler.app/App Scheduler";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE50135F204F38F500716DB1 /* Build configuration list for PBXProject "App Scheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE50138E204F38F500716DB1 /* Debug */,
+				DE50138F204F38F500716DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE501390204F38F500716DB1 /* Build configuration list for PBXNativeTarget "App Scheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE501391204F38F500716DB1 /* Debug */,
+				DE501392204F38F500716DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE501393204F38F500716DB1 /* Build configuration list for PBXNativeTarget "App SchedulerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE501394204F38F500716DB1 /* Debug */,
+				DE501395204F38F500716DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE50135C204F38F500716DB1 /* Project object */;
+}
